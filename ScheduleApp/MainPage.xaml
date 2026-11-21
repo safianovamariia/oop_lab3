@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleApp.MainPage"
+             Shell.NavBarIsVisible="False"
+             Title="Display Class Schedule">
+
+    <Grid ColumnDefinitions="280,*" ColumnSpacing="24" Padding="24">
+
+        <ScrollView Grid.Column="0">
+            <VerticalStackLayout Spacing="8">
+                <Label Text="Display Class Schedule" FontSize="20" FontAttributes="Bold" />
+
+                <Label Text="File" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="8">
+                    <Button Grid.Column="0" Text="Open JSON" Clicked="BtnClickOpenFile" />
+                    <Button Grid.Column="1" Text="Save" Clicked="BtnClickSave" />
+                </Grid>
+
+                <Label Text="Records" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Grid ColumnDefinitions="*,*,*" ColumnSpacing="8">
+                    <Button Grid.Column="0" Text="Add" Clicked="BtnClickAdd" />
+                    <Button Grid.Column="1" Text="Edit" Clicked="BtnClickEdit" />
+                    <Button Grid.Column="2" Text="Delete" Clicked="BtnClickDelete" />
+                </Grid>
+
+                <Label Text="Search (LINQ)" FontAttributes="Bold" Margin="0,6,0,0" />
+                <Label Text="Room / ARM" />
+                <Picker x:Name="RoomPicker" Title="Open a file first" SelectedIndexChanged="OnRoomChanged" />
+                <Label Text="Day of week" />
+                <Picker x:Name="DayPicker" SelectedIndexChanged="OnDayChanged" />
+                <Label Text="Teacher / user" />
+                <Entry x:Name="PersonEntry" Placeholder="Part of the name" TextChanged="OnPersonChanged" />
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="8" Margin="0,4,0,0">
+                    <Button Grid.Column="0" Text="Search" Clicked="BtnClickSearch" />
+                    <Button Grid.Column="1" Text="Clear" Clicked="BtnClickClear" />
+                </Grid>
+
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="8" Margin="0,16,0,0">
+                    <Button Grid.Column="0" Text="About" Clicked="BtnClickAbout" />
+                    <Button Grid.Column="1" Text="Exit" Clicked="BtnClickExit" />
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Column="1" RowDefinitions="Auto,*" RowSpacing="10">
+            <Label x:Name="MessageLabel" Grid.Row="0" FontAttributes="Bold" Text="Open a JSON file with the schedule." />
+            <Border Grid.Row="1" Stroke="Gray" StrokeThickness="1" Padding="0">
+                <ScrollView Orientation="Vertical">
+                    <Grid x:Name="SessionsGrid"
+                          ColumnDefinitions="110,70,110,70,*,180"
+                          ColumnSpacing="1" RowSpacing="1"
+                          BackgroundColor="#C8C8C8"
+                          HorizontalOptions="Fill" VerticalOptions="Start" />
+                </ScrollView>
+            </Border>
+        </Grid>
+    </Grid>
+</ContentPage>

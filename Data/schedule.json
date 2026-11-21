@@ -1,0 +1,388 @@
+{
+  "faculty": "Faculty of Computer Science and Cybernetics",
+  "semester": "Autumn 2026",
+  "rooms": [
+    {
+      "number": "303",
+      "building": "1",
+      "type": "DisplayClass",
+      "department": "Department of Software Systems",
+      "workplacesCount": 15
+    },
+    {
+      "number": "305",
+      "building": "1",
+      "type": "DisplayClass",
+      "department": "Department of Information Systems",
+      "workplacesCount": 12
+    },
+    {
+      "number": "214",
+      "building": "2",
+      "type": "DepartmentArm",
+      "department": "Department of Software Systems",
+      "workplacesCount": 3
+    },
+    {
+      "number": "118",
+      "building": "2",
+      "type": "DepartmentArm",
+      "department": "Department of Information Systems",
+      "workplacesCount": 2
+    }
+  ],
+  "users": [
+    {
+      "fullName": "Vasylenko O.M.",
+      "role": "Teacher",
+      "department": "Department of Software Systems"
+    },
+    {
+      "fullName": "Kostenko I.P.",
+      "role": "Teacher",
+      "department": "Department of Information Systems"
+    },
+    {
+      "fullName": "Bilous N.V.",
+      "role": "Teacher",
+      "department": "Department of Information Systems"
+    },
+    {
+      "fullName": "Petrenko S.A.",
+      "role": "Teacher",
+      "department": "Department of Software Systems"
+    },
+    {
+      "fullName": "Ivanov D.O.",
+      "role": "Laborant",
+      "department": "Department of Software Systems"
+    },
+    {
+      "fullName": "Bondar T.I.",
+      "role": "Laborant",
+      "department": "Department of Information Systems"
+    },
+    {
+      "fullName": "Shevchenko A.V.",
+      "role": "Student",
+      "department": "Department of Software Systems"
+    }
+  ],
+  "sessions": [
+    {
+      "$type": "lesson",
+      "subject": "Object-Oriented Programming",
+      "teacher": "Vasylenko O.M.",
+      "group": "K-11",
+      "roomNumber": "303",
+      "day": "Monday",
+      "time": "08:40"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Databases",
+      "teacher": "Kostenko I.P.",
+      "group": "K-12",
+      "roomNumber": "303",
+      "day": "Monday",
+      "time": "10:35"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Ivanov D.O.",
+      "roomNumber": "303",
+      "day": "Monday",
+      "time": "14:05"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Computer Networks",
+      "teacher": "Bilous N.V.",
+      "group": "K-13",
+      "roomNumber": "303",
+      "day": "Tuesday",
+      "time": "08:40"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Object-Oriented Programming",
+      "teacher": "Vasylenko O.M.",
+      "group": "K-14",
+      "roomNumber": "303",
+      "day": "Tuesday",
+      "time": "10:35"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Web Programming",
+      "teacher": "Petrenko S.A.",
+      "group": "K-15",
+      "roomNumber": "303",
+      "day": "Wednesday",
+      "time": "10:35"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Ivanov D.O.",
+      "roomNumber": "303",
+      "day": "Wednesday",
+      "time": "12:20"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Object-Oriented Programming",
+      "teacher": "Petrenko S.A.",
+      "group": "K-16",
+      "roomNumber": "303",
+      "day": "Thursday",
+      "time": "08:40"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Databases",
+      "teacher": "Bilous N.V.",
+      "group": "K-11",
+      "roomNumber": "303",
+      "day": "Thursday",
+      "time": "12:20"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Object-Oriented Programming",
+      "teacher": "Vasylenko O.M.",
+      "group": "K-12",
+      "roomNumber": "303",
+      "day": "Friday",
+      "time": "10:35"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Computer Networks",
+      "teacher": "Bilous N.V.",
+      "group": "K-14",
+      "roomNumber": "303",
+      "day": "Saturday",
+      "time": "08:40"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Ivanov D.O.",
+      "roomNumber": "303",
+      "day": "Saturday",
+      "time": "10:35"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Web Programming",
+      "teacher": "Petrenko S.A.",
+      "group": "K-13",
+      "roomNumber": "305",
+      "day": "Monday",
+      "time": "08:40"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Computer Networks",
+      "teacher": "Bilous N.V.",
+      "group": "K-11",
+      "roomNumber": "305",
+      "day": "Monday",
+      "time": "12:20"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Databases",
+      "teacher": "Kostenko I.P.",
+      "group": "K-15",
+      "roomNumber": "305",
+      "day": "Tuesday",
+      "time": "08:40"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Bondar T.I.",
+      "roomNumber": "305",
+      "day": "Tuesday",
+      "time": "12:20"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Object-Oriented Programming",
+      "teacher": "Vasylenko O.M.",
+      "group": "K-16",
+      "roomNumber": "305",
+      "day": "Wednesday",
+      "time": "08:40"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Databases",
+      "teacher": "Kostenko I.P.",
+      "group": "K-14",
+      "roomNumber": "305",
+      "day": "Wednesday",
+      "time": "10:35"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Web Programming",
+      "teacher": "Petrenko S.A.",
+      "group": "K-12",
+      "roomNumber": "305",
+      "day": "Thursday",
+      "time": "10:35"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Computer Networks",
+      "teacher": "Bilous N.V.",
+      "group": "K-15",
+      "roomNumber": "305",
+      "day": "Friday",
+      "time": "08:40"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Bondar T.I.",
+      "roomNumber": "305",
+      "day": "Friday",
+      "time": "14:05"
+    },
+    {
+      "$type": "lesson",
+      "subject": "Databases",
+      "teacher": "Kostenko I.P.",
+      "group": "K-16",
+      "roomNumber": "305",
+      "day": "Saturday",
+      "time": "10:35"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Vasylenko O.M.",
+      "roomNumber": "214",
+      "day": "Monday",
+      "time": "10:35"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Shevchenko A.V.",
+      "roomNumber": "214",
+      "day": "Monday",
+      "time": "10:35"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Bondar T.I.",
+      "roomNumber": "214",
+      "day": "Monday",
+      "time": "14:05"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-3",
+      "user": "Kostenko I.P.",
+      "roomNumber": "214",
+      "day": "Tuesday",
+      "time": "12:20"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Petrenko S.A.",
+      "roomNumber": "214",
+      "day": "Wednesday",
+      "time": "08:40"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Ivanov D.O.",
+      "roomNumber": "214",
+      "day": "Wednesday",
+      "time": "14:05"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Bilous N.V.",
+      "roomNumber": "214",
+      "day": "Thursday",
+      "time": "10:35"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Ivanov D.O.",
+      "roomNumber": "214",
+      "day": "Friday",
+      "time": "12:20"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Kostenko I.P.",
+      "roomNumber": "118",
+      "day": "Monday",
+      "time": "12:20"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Bondar T.I.",
+      "roomNumber": "118",
+      "day": "Tuesday",
+      "time": "10:35"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Bilous N.V.",
+      "roomNumber": "118",
+      "day": "Wednesday",
+      "time": "12:20"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Vasylenko O.M.",
+      "roomNumber": "118",
+      "day": "Thursday",
+      "time": "14:05"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-1",
+      "user": "Petrenko S.A.",
+      "roomNumber": "118",
+      "day": "Friday",
+      "time": "10:35"
+    },
+    {
+      "$type": "freeAccess",
+      "responsible": "Ivanov D.O.",
+      "roomNumber": "118",
+      "day": "Friday",
+      "time": "14:05"
+    },
+    {
+      "$type": "armWork",
+      "workplace": "ARM-2",
+      "user": "Kostenko I.P.",
+      "roomNumber": "118",
+      "day": "Saturday",
+      "time": "12:20"
+    },
+    {
+      "$type": "lesson",
+      "subject": "OOP",
+      "teacher": "Kostenko I.P.",
+      "group": "K-16",
+      "roomNumber": "118",
+      "day": "Sunday",
+      "time": "17:35"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleApp.AboutPage"
+             Title="About">
+
+    <VerticalStackLayout Padding="32" Spacing="10" MaximumWidthRequest="560" HorizontalOptions="Center">
+        <Label Text="About the program" FontSize="22" FontAttributes="Bold" />
+        <Label x:Name="AuthorLabel" />
+        <Label x:Name="CourseLabel" />
+        <Label x:Name="GroupLabel" />
+        <Label x:Name="YearLabel" />
+        <Label x:Name="DescriptionLabel" LineBreakMode="WordWrap" Margin="0,8,0,0" />
+        <Button Text="Close" Clicked="BtnClickClose" HorizontalOptions="Start" WidthRequest="140" Margin="0,16,0,0" />
+    </VerticalStackLayout>
+</ContentPage>
